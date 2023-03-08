@@ -119,11 +119,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18137844777246__5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae-1678311929a0a70a0f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Walk with a <em>purpose<\/em><\/h1>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18137844777246__5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae-1678311929a0a70a0f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are dedicated to producing eco-friendly footwear using only sustainable materials such as recycled plastics, organic cotton, and natural rubber. We ensure ethical working conditions and sustainable practices throughout our supply chain while providing a wide range of stylish and comfortable shoes<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18137844777246__5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae-1678311929a0a70a0f-0",
+        "template--18137844777246__5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae-1678311929a0a70a0f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "9e4aa5cf-ce07-4df2-aed3-b03f9800509a"
+    "9e4aa5cf-ce07-4df2-aed3-b03f9800509a",
+    "5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae"
   ]
 }
