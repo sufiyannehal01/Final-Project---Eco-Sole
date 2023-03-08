@@ -149,12 +149,48 @@
         "padding_top": 4,
         "padding_bottom": 52
       }
+    },
+    "9ac631bf-fac0-41a5-b61a-f6005b0d891f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18137844777246__9ac631bf-fac0-41a5-b61a-f6005b0d891f-1678314097f5da4f16-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MOTHER NATURE MADE US DO IT",
+            "heading_size": "h1"
+          }
+        },
+        "template--18137844777246__9ac631bf-fac0-41a5-b61a-f6005b0d891f-1678314097f5da4f16-1": {
+          "type": "text",
+          "settings": {
+            "text": "We crafted a revolutionary wool fabric made specifically for footwear. The outcome? An entirely new category of shoes inspired by natural materials, and an ongoing mantra to create better things in a better way.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18137844777246__9ac631bf-fac0-41a5-b61a-f6005b0d891f-1678314097f5da4f16-0",
+        "template--18137844777246__9ac631bf-fac0-41a5-b61a-f6005b0d891f-1678314097f5da4f16-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.gif",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "9e4aa5cf-ce07-4df2-aed3-b03f9800509a",
-    "5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae"
+    "5ccc5745-1af5-49ab-b21b-e0a08e9fb7ae",
+    "9ac631bf-fac0-41a5-b61a-f6005b0d891f"
   ]
 }
