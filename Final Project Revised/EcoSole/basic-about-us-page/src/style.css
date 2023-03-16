@@ -1,0 +1,15 @@
+.bgcol{
+  background: grey;
+  height: 300px;
+}
+.testimg{
+  width:15%;
+  height:20%;
+  border-radius: 50%;
+}
+.card{
+  box-shadow:10px 10px 26px -15px rgba(0, 0, 0, 0.75)
+}
+.card-body{
+  height:350px;
+}
