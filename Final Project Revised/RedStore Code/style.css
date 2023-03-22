@@ -713,7 +713,7 @@ body {
   
   .content-page .hero {
       height: 250px;
-      background-image: url("https://systmapp-temp.s3.amazonaws.com/about/header-background.jpg");/*url("/images/headers/header-background.jpg");*/
+      background-image: url("https://vegsoc.org/wp-content/uploads/2019/02/sheep-750x580.jpg");/*url("/images/headers/header-background.jpg");*/
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
