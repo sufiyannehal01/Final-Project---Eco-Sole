@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <form action="process-signup.php" method="post"> </form>
-    <a href="process-signup.php"></a>
-   
-
        <div class="container">
           <div class="navbar">
               <div class="logo">
@@ -54,17 +50,19 @@
                  
         
                <form id="LoginForm">
-                <input type="email" placeholder="Email">
-                   <input type="password" id= "password" name="password" placeholder="Password">
-                   <input type="password" id= "password" name="password_confirmation" placeholder="Repeat Confirmation">
+                <form onsubmit={signUp(event)}>
+
+                  <input type="email" id= "login_email" placeholder="Email">
+                   <input type="password" id= "login_password" name="password" placeholder="Password">
+                   <input type="password" id= "login_password_confirmation" name="password_confirmation" placeholder="Repeat Confirmation">
                    <button class="btn">Login</button>
                </form>
 
                <form id="RegForm">
-                   <input type="email" placeholder="Email">
-                   <input type="password" placeholder="Password">
-                   <input type="password" id= "password" name="password_confirmation" placeholder="Repeat Confirmation">
-                   <button class="btn">Register</button>
+                   <input type="email" id= "Email" placeholder="Email">
+                   <input type="password" id= "password" placeholder="Password">
+                   <input type="password" id= "password_confirmation" name="password_confirmation" placeholder="Repeat Confirmation">
+                   <button id="register_btn" class="btn">Register</button>
                </form>
               </div>
            </div>
@@ -150,9 +148,7 @@
             };
             
     </script>
-    
-    
-    
 </body>
+<script src="app.js" type="module"></script>
 </html>
 
