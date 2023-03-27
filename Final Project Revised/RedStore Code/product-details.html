@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    
+    <h1><i class=" fa fa-shopping-cart"></i></h1>
+    
        <div class="container">
           <div class="navbar">
               <div class="logo">
@@ -17,12 +20,12 @@
               <nav>
                <ul id="MenuItems">
                    <li><a href="index.html">Home</a></li>
-                   <li><a href="products.html">Products</a></li>
+                   <li><a href="Product Page.html">Products</a></li>
                    <li><a href="About Page.html">About</a></li>
                    <li><a href="account.html">Account</a></li>
                </ul>
               </nav>
-              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+              <a href="Product Page.html"><img src="images/cart.png" width="30px" height="30px"></a>
               <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
           </div>
           
@@ -54,18 +57,17 @@
             <h1>The ForestFit 2.0</h1>
             <h4>$99.99</h4>
             
-            <select>
-               <option>Select Size</option>
-               <option>42</option>
-               <option>44</option>
-               <option>46</option>
-               <option>48</option>
-               <option>50</option>
-           </select>
-            
-            <input type="number" value="1">
-            <a href="cart.html" class="btn">Add To Cart</a>
-            
+            <!--Stripe payment button-->
+           <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1Mq3PaEqZwyuiqBuyBJvCxl9"
+  publishable-key="pk_live_51Mq3BGEqZwyuiqBumBL6F4AU1D9YDwnMiXAh1PQT88wyot3saEvOXwSyjSoXMHwLHGZhIudh4MgODpJCUzsUrxkI00qDQOQaKV"
+>
+</stripe-buy-button>
+
             <h3>PRODUCT DETAILS <i class="fa fa-indent"></i></h3>
             <br>
             <p>Introducing our eco-friendly sneaker, the perfect choice for both style and sustainability. Made from recycled plastic and natural rubber, this sneaker is not only eco-friendly, but also incredibly comfortable. The breathable organic cotton lining ensures that your feet stay cool and dry, even on hot summer days.
@@ -209,4 +211,5 @@
 
 </body>
 </html>
+<script type="text/javascript" src="Product Page.js"></script>
 

@@ -18,7 +18,7 @@
               <nav>
                <ul id="MenuItems">
                    <li><a href="index.html">Home</a></li>
-                   <li><a href="products.html">Products</a></li>
+                   <li><a href="Product Page.html">Products</a></li>
                    <li><a href="About Page.html">About</a></li>
                    <li><a href="account.html">Account</a></li>
                </ul>
@@ -56,18 +56,18 @@
             <p>Home / DaisyFit  2.0</p>
             <h1>The DaisyFit 2.0</h1>
             <h4>$99.99</h4>
+         
+            <!--stripe payment button-->
             
-            <select>
-               <option>Select Size</option>
-               <option>42</option>
-               <option>44</option>
-               <option>46</option>
-               <option>48</option>
-               <option>50</option>
-           </select>
-            
-            <input type="number" value="1">
-            <a href="cart.html" class="btn">Add To Cart</a>
+            <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+          </script>
+          
+          <stripe-buy-button
+            buy-button-id="buy_btn_1Mq3WCEqZwyuiqBuUWHt0EqT"
+            publishable-key="pk_live_51Mq3BGEqZwyuiqBumBL6F4AU1D9YDwnMiXAh1PQT88wyot3saEvOXwSyjSoXMHwLHGZhIudh4MgODpJCUzsUrxkI00qDQOQaKV"
+          >
+          </stripe-buy-button>
             
             <h3>PRODUCT DETAILS <i class="fa fa-indent"></i></h3>
             <br>
@@ -79,6 +79,8 @@
         </div>
     </div>
 </div>
+
+<!--------------TEST--------------->
 
 <!----------Photos & Text - Fancy ---------------> 
 
@@ -212,4 +214,5 @@
 
 </body>
 </html>
+<script type="text/javascript" src="main.js"></script>
 
