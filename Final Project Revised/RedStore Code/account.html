@@ -22,7 +22,7 @@
                    <li><a href="account.html">Account</a></li>
                </ul>
               </nav>
-              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+              <a href="Product Page.html"><img src="images/cart.png" width="30px" height="30px"></a>
               <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
           </div>
           
@@ -60,7 +60,7 @@
                    <input type="email" id= "Email" placeholder="Email">
                    <input type="password" id= "password" placeholder="Password">
                    <input type="password" id= "password_confirmation" name="password_confirmation" placeholder="Repeat Confirmation">
-                   <button class="btn" id="sinupin" value="Sign In" >Sign In</button>
+                   <button class="btn" id="sinupin" value="Sign In" onclick="myFunction()"> Sign In</button>
                </form>
               </div>
            </div>
@@ -105,7 +105,7 @@
             </div>
         </div>
         <hr>
-        <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+        <p class="copyright">Made by Mohammed Hussain - For Pressor Parveen - Final Project 1014</p>
     </div>
 </div>
 
@@ -146,6 +146,14 @@
             };
             
     </script>
+ <!--on click message-->   
+
+<script>
+    function myFunction() {
+      alert("Welcome! Sign In Successful.");
+    }
+    </script>
+
 </body>
 <script src="app.js" type="module"></script>
 </html>
